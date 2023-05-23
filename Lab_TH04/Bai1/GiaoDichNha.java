@@ -49,7 +49,7 @@ public class GiaoDichNha extends GiaoDich {
     public void nhap(){
         super.nhap();
         Scanner sc = new Scanner(System.in);
-        System.out.printf("Nhap loai nha (cao cap/thuong): ");
+        System.out.printf("Nhap loai nha : ");
         loaiNha = sc.nextLine();
         System.err.println("Nhap dia chi: ");
         diaChi = sc.nextLine();
